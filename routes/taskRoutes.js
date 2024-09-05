@@ -29,7 +29,7 @@ taskRouter.post('/tasks', async (req, res) => {
   }
 });
 
-// Update a task
+// Edit a task
 taskRouter.put('/tasks/:id', async (req, res) => {
   try {
     const task = await taskModel.findById(req.params.id);
