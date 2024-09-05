@@ -1,0 +1,40 @@
+.env
+nodemoudle# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# npm package lock files
+package-lock.json
+yarn.lock
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Other
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
