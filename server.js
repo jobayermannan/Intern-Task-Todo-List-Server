@@ -1,6 +1,8 @@
 import express, { json } from 'express';
 import cors from 'cors';
-
+import dotenv from 'dotenv';
+import connectDB from './config/db.js';
+import taskRouter from './routes/taskRoutes.js';
 
 dotenv.config();
 connectDB();
